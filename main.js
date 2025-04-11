@@ -31,7 +31,7 @@ googleLogin.addEventListener("click", function() {
         console.log(user.displayName);
         console.log(user.email);
         console.log(user.uid);
-        window.location.href = "https://rockyboo3.github.io/CS20-Final/homepage.html";
+        window.location.href = "https://rockyboo3.github.io/cs20_final_practice/homepage.html";
     }).catch((error) => {
         // Handle Errors here.
         const errorCode = error.code;
