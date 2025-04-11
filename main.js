@@ -30,7 +30,9 @@ googleLogin.addEventListener("click", function() {
         const user = result.user;
         // IdP data available using getAdditionalUserInfo(result)
         // ...
-        }).catch((error) => {
+        console.log(user);
+        window.location.href = "../homepage.html";
+    }).catch((error) => {
         // Handle Errors here.
         const errorCode = error.code;
         const errorMessage = error.message;
